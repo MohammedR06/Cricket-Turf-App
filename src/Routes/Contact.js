@@ -1,18 +1,18 @@
 import React from "react";
 import Navbar from "../Partial/Navbar";
 import Footer from "../Partial/Footer";
-import Slider from "../Components/Home/Slider";
+import ContactUs from "../Components/Contact/Contact";
 import Whatsapp from "../Partial/Whatsapp";
 
-function Home() {
+function Contact() {
   return (
     <>
       <Navbar />
-      <Slider />
-      <Footer />
+      <ContactUs />
       <Whatsapp />
+      <Footer />
     </>
   );
 }
 
-export default Home;
+export default Contact;

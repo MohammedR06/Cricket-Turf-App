@@ -1,0 +1,47 @@
+.fixed-top {
+  background: #00b562;
+}
+.txt {
+  font-weight: 500;
+}
+.txt1 {
+  font-weight: 400;
+}
+
+.links:hover {
+  color: #4cbb17;
+}
+.nav-item {
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+.nav-item:after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  transition: 0.5s;
+}
+.nav-item:hover::after {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .nav-item:after {
+    content: "";
+    width: 0;
+    height: 1px;
+    background: #101214;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    transition: 0.5s;
+  }
+  .nav-item:hover::after {
+    width: 25%;
+  }
+}

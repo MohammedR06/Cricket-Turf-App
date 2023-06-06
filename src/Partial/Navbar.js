@@ -1,43 +1,58 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
-          TURF
+    <nav className="navbar navbar-expand-lg fixed-top" id="navbar-header">
+      <div className="container">
+        <Link className="nav-link active" aria-current="page" to="/">
+          <span className="fs-4 ms-2 txt">Masti Cricket</span>
         </Link>
+
         <button
-          className="navbar-toggler"
+          id="nav-toggle-button"
+          className="navbar-toggler custom-toggler collapsed"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">
+        <div
+          className="navbar-collapse justify-content-end collapse"
+          id="navbarSupportedContent"
+        >
+          <ul id="navbar-links" className="navbar-nav px-1">
+            <li className="nav-item px-2">
+              <Link
+                className="nav-link links text-black txt1"
+                aria-current="page"
+                to="/"
+              >
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">
-                About Us
+            <li className="nav-item px-2 ">
+              <Link
+                className="nav-link links txt1 text-black"
+                aria-current="page"
+                to="/about"
+              >
+                About
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">
-                Contact Us
+            <li className="nav-item px-2">
+              <Link
+                className="nav-link links text-black txt1"
+                aria-current="page"
+                to="/contact"
+              >
+                Contact
               </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link disabled">Disabled</Link>
             </li>
           </ul>
         </div>
