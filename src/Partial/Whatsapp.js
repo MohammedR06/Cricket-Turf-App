@@ -5,7 +5,7 @@ import "./whatsapp.css";
 function Whatsapp() {
   return (
     <div className="containerfloat">
-      <a href="https://wa.me/+971508065253" target="_blank" rel="noreferrer">
+      <a href="https://wa.me/+919892558564" target="_blank" rel="noreferrer">
         <img
           src={whatsappbtn}
           alt="/"

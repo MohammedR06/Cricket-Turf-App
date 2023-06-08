@@ -1,10 +1,10 @@
 import React from "react";
 import "./footer.css";
-import logo from "../assets/images/LOGO-M-WEB.gif";
+import logo from "../assets/images/masti-1-removebg-preview.png";
 function Footer() {
   return (
     <>
-      <footer className="text-center text-lg-start">
+      <footer className="text-center text-lg-start ">
         <section className="d-flex justify-content-between p-4 text-white social">
           <div className="me-5 txt">
             <span className="text-dark">Get connected with us:</span>
@@ -27,7 +27,7 @@ function Footer() {
             <div className="row mt-3">
               <div className="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
                 <img src={logo} className="logo" alt="" />
-                <h6 className="text-uppercase fw-bold">Masti Cricket</h6>
+                {/* <h6 className="text-uppercase fw-bold">Masti Cricket</h6> */}
                 <hr
                   className="mb-4 mt-0 d-inline-block mx-auto"
                   //   style="width: 60px; background-color: #7c4dff; height: 2px"
@@ -101,12 +101,15 @@ function Footer() {
                     className="fas fa-home mr-3"
                     style={{ color: "black" }}
                   ></i>{" "}
-                  Ahemdabad
+                  Riverfront road between jamalpur to danilimda{" "}
                 </p>
                 <p>
-                  <a href="emailstring" style={{ color: "black" }}>
+                  <a
+                    href="mailto:mastiboxcricket@gmail.com"
+                    style={{ color: "black" }}
+                  >
                     <i className="fas fa-envelope mr-3"></i>{" "}
-                    masticricket@gmail.com
+                    mastiboxcricket@gmail.com
                   </a>
                 </p>
                 <p>
@@ -128,7 +131,7 @@ function Footer() {
         </section>
 
         <div className="text-center p-3 copyright">
-          © Masti Cricket 2023 Copyright
+          © Masti Box Cricket 2023 Copyright
         </div>
       </footer>
     </>

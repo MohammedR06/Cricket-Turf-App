@@ -51,10 +51,9 @@ function ContactUs() {
             <div className="address">
               <h4>Address</h4>
               <p>
-                Masti Cricket
+                Masti Box Cricket
                 <br />
-                River Front
-                <br />
+                Riverfront road between jamalpur to danilimda <br />
                 Ahemdabad - IND
               </p>
             </div>
@@ -66,7 +65,13 @@ function ContactUs() {
                   className="fas fa-envelope mr-3"
                   style={{ color: "black" }}
                 ></i>{" "}
-                E-Mail: masticricketd@gmail.com
+                <a
+                  href="mailto:mastiboxcricket@gmail.com"
+                  style={{ color: "black" }}
+                >
+                  {" "}
+                  mastiboxcricket@gmail.com
+                </a>
                 <br />
                 <a className="text-dark" href="tel:+971508065253">
                   <i

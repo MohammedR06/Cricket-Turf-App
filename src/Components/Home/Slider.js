@@ -1,6 +1,6 @@
 import React from "react";
 import "./slider.css";
-
+import img1 from "../../assets/images/wall1.webp";
 function Slider() {
   return (
     <div id="carouselExampleIndicators" className="carousel slide">
@@ -28,25 +28,13 @@ function Slider() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img
-            className="img d-block w-100"
-            src="https://plus.unsplash.com/premium_photo-1679917489462-460aed6990b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-            alt="..."
-          />
+          <img className="img d-block w-100" src={img1} alt="..." />
         </div>
         <div className="carousel-item">
-          <img
-            className="img d-block w-100"
-            src="https://plus.unsplash.com/premium_photo-1679917489462-460aed6990b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-            alt="sss"
-          />
+          <img className="img d-block w-100" src={img1} alt="sss" />
         </div>
         <div className="carousel-item">
-          <img
-            className="img d-block w-100"
-            src="https://plus.unsplash.com/premium_photo-1679917489462-460aed6990b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JpY2tldHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-            alt="sss"
-          />
+          <img className="img d-block w-100" src={img1} alt="sss" />
         </div>
       </div>
       {/* <button

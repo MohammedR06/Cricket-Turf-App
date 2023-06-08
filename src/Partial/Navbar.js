@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.png";
 import "./navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top" id="navbar-header">
+    <nav className="navbar navbar-expand-lg bg" id="navbar-header">
       <div className="container">
         <Link className="nav-link active" aria-current="page" to="/">
-          <span className="fs-4 ms-2 txt">Masti Cricket</span>
+          <img src={logo} alt="" height={50} />
+          <span className="fs-4 ms-2 txt">Masti Box Cricket</span>
         </Link>
 
         <button
@@ -28,17 +30,13 @@ function Navbar() {
         >
           <ul id="navbar-links" className="navbar-nav px-1">
             <li className="nav-item px-2">
-              <Link
-                className="nav-link links text-black txt1"
-                aria-current="page"
-                to="/"
-              >
+              <Link className="nav-link links  " aria-current="page" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item px-2 ">
               <Link
-                className="nav-link links txt1 text-black"
+                className="nav-link links  "
                 aria-current="page"
                 to="/about"
               >
@@ -47,7 +45,7 @@ function Navbar() {
             </li>
             <li className="nav-item px-2">
               <Link
-                className="nav-link links text-black txt1"
+                className="nav-link links  "
                 aria-current="page"
                 to="/contact"
               >
