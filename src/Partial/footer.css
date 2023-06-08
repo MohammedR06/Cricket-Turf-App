@@ -1,0 +1,23 @@
+footer {
+  background-color: white;
+}
+
+.social {
+  background-color: #9fe2bf;
+  /* background-color: #00b562; */
+}
+.copyright {
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+}
+@media (max-width: 767px) {
+  .txt {
+    margin-right: 16px !important;
+  }
+}
