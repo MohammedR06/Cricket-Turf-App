@@ -5,7 +5,7 @@ function ContactUs() {
   return (
     <section>
       <div id="container">
-        <h1>DON'T HESITATE CONTACT US</h1>
+        <h1>DON'T HESITATE TO CONTACT US</h1>
         <div id="row">
           <div id="form">
             <form>
@@ -54,7 +54,7 @@ function ContactUs() {
                 Masti Box Cricket
                 <br />
                 Riverfront road between jamalpur to danilimda <br />
-                Ahemdabad - IND
+                Ahmedabad - IND
               </p>
             </div>
             <hr />
