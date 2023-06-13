@@ -11,7 +11,7 @@ function Games() {
         </span>
       </div>
 
-      <div className="container row col-lg-12 my-5 justify-content-center ms-5">
+      <div className="container row col-lg-12 my-5 justify-content-center ">
         <div className="col-lg-6 img-box img1">
           <img src={img1} alt="" height={350} width={600} />
         </div>
@@ -36,7 +36,7 @@ function Games() {
         </div>
       </div>
       <hr />
-      <div className="container row col-lg-12 my-5 mt-4 mb-5 justify-content-center ms-5">
+      <div className="container row col-lg-12 my-5 mt-4 mb-5 justify-content-center ">
         <div className="col-lg-6 ">
           <h2 className=" text-center">
             <u>Football</u>
