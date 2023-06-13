@@ -1,6 +1,8 @@
 import React from "react";
 import "./slider.css";
-import img1 from "../../assets/images/wall1.webp";
+import img1 from "../../assets/images/turf3.jpg";
+import img2 from "../../assets/images/turf4.jpg";
+import img3 from "../../assets/images/turf1.jpg";
 function Slider() {
   return (
     <div id="carouselExampleIndicators" className="carousel slide">
@@ -31,10 +33,10 @@ function Slider() {
           <img className="img d-block w-100" src={img1} alt="..." />
         </div>
         <div className="carousel-item">
-          <img className="img d-block w-100" src={img1} alt="sss" />
+          <img className="img d-block w-100" src={img2} alt="sss" />
         </div>
         <div className="carousel-item">
-          <img className="img d-block w-100" src={img1} alt="sss" />
+          <img className="img d-block w-100" src={img3} alt="sss" />
         </div>
       </div>
       {/* <button
