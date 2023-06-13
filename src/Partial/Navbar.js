@@ -34,6 +34,15 @@ function Navbar() {
                 Home
               </Link>
             </li>
+            <li className="nav-item px-2">
+              <Link
+                className="nav-link links  "
+                aria-current="page"
+                to="/gallery"
+              >
+                Gallery
+              </Link>
+            </li>
             <li className="nav-item px-2 ">
               <Link
                 className="nav-link links  "

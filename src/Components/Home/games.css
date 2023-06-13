@@ -1,0 +1,33 @@
+.txt1 {
+  color: #32ef8d;
+  font-size: 35px;
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.167);
+}
+.img-box {
+  background-color: #fff;
+  /* box-shadow: 0 3px 6px rgba(0, 71, 206, 0.2); */
+  overflow: hidden;
+  /* transition: all 0.4s ease; */
+}
+.img1 {
+  display: block;
+  animation-name: moveInRight;
+  animation-duration: 4s;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
