@@ -99,3 +99,9 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+@media (max-width: 767px) {
+  .img {
+    height: 400px;
+  }
+}

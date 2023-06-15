@@ -16,11 +16,11 @@ function Games() {
           <img src={img1} alt="" height={350} width={600} />
         </div>
         <div className="col-lg-6 ">
-          <h2 className="ms-5 text-center">
+          <h2 className="ms-3 my-2 text-center">
             <u>Cricket</u>
           </h2>
 
-          <p className="ms-5 text-dark" style={{ fontWeight: 500 }}>
+          <p className="ms-3 text-dark" style={{ fontWeight: 500 }}>
             Playing cricket on a turf ground offers a unique and thrilling
             experience for both players and spectators. Turf grounds are known
             for their well-maintained, lush green surfaces, which provide a
@@ -28,10 +28,10 @@ function Games() {
             about playing cricket on a turf ground:
           </p>
           <ul>
-            <li className="ms-5">Pitch Quality</li>
-            <li className="ms-5">Ball Behavior</li>
-            <li className="ms-5">Fielding Conditions</li>
-            <li className="ms-5">Pitch Maintenance</li>
+            <li className="ms-3">Pitch Quality</li>
+            <li className="ms-3">Ball Behavior</li>
+            <li className="ms-3">Fielding Conditions</li>
+            <li className="ms-3">Pitch Maintenance</li>
           </ul>
         </div>
       </div>
@@ -42,22 +42,22 @@ function Games() {
             <u>Football</u>
           </h2>
 
-          <p className=" text-dark" style={{ fontWeight: 500 }}>
+          <p className="ms-3 text-dark" style={{ fontWeight: 500 }}>
             Playing football on a turf ground provides a dynamic and fast-paced
             experience for players. Turf grounds, also known as artificial or
             synthetic turf, offer several advantages over natural grass fields.
             Here's some information about playing football on a turf ground:
           </p>
           <ul>
-            <li className="">Consistent Playing Surface</li>
-            <li className="">All-Weather Playability</li>
-            <li className="">Speed and Ball Control</li>
-            <li className="">Reduced Injury Risk</li>
-            <li className="">Lower Maintenance</li>
+            <li className="ms-3">Consistent Playing Surface</li>
+            <li className="ms-3">All-Weather Playability</li>
+            <li className="ms-3">Speed and Ball Control</li>
+            <li className="ms-3">Reduced Injury Risk</li>
+            <li className="ms-3">Lower Maintenance</li>
           </ul>
         </div>
         <div className="col-lg-6 img-box img1 ">
-          <img className="ms-5" src={img1} alt="" height={350} width={600} />
+          <img className="" src={img1} alt="" height={350} width={600} />
         </div>
       </div>
     </>

@@ -9,19 +9,19 @@ function Images() {
       <h2 className="text-center my-3 text"> Turf Images</h2>
       <hr className="mb-5" />
       <div className="row col-lg-12">
-        <div className="col-lg-4">
+        <div className="col-lg-4 my-2">
           <div className="box animated bounceInDown">
-            <img src={img1} alt="" height={500} width={500} />
+            <img className="img" src={img1} alt="" height={500} width={500} />
           </div>
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 my-2">
           <div className="box animated bounceInDown">
-            <img src={img2} alt="" height={500} width={500} />
+            <img className="img" src={img2} alt="" height={500} width={500} />
           </div>
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 my-2">
           <div className="box animated bounceInDown">
-            <img src={img3} alt="" height={500} width={500} />
+            <img className="img" src={img3} alt="" height={500} width={500} />
           </div>
         </div>
       </div>
